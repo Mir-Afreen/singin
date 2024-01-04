@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+   
+
+}
+/*styling for main box */
+.box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url(loggin.jpg); 
+    background-size:cover; 
+    background-repeat: no-repeat;
+} 
+/*styling end for main box */
+/* inner box css strat */
+ .box1{
+    height: 500px;
+    width:400px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #ffffffa0;
+    background-color: rgba(128, 128, 128, 0.522);
+    margin: 190px ;
+} 
+h5{
+text-align: center;
+color: white;
+}
+h2{
+    text-align: center;
+    color: transparent;
+    font-size: 32px;
+    background: linear-gradient(to Right,
+    white 25%,rgb(108, 5, 5));
+    background-size: 200% auto;  /*to float*/
+    -webkit-background-clip: text; /*for color in text*/
+    animation: gradient 4s linear infinite;
+}
+@keyframes gradient {
+
+    0%{
+        background-position: 0% 75%;
+    }
+    50%{
+        background-position: 100% 30%;
+    }
+    100%{
+        background-position: 0% 70%;
+    }
+}
+h5{
+color: rgba(169, 15, 169, 0.756);
+}
+input[type="submit"]
+{
+    width: 370px;
+    height: 40px;
+    margin: 30px 4px;
+    background-color: rgba(139, 0, 0, 0.714);
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+   
+}
+.btn{ width: 180px;
+    height: 50px;
+    margin: 10px 4px;
+   
+    background-color: rgba(139, 0, 0, 0.714);
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #535878;
+
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: #535878;
+}
+input[type="email"],[type="password"]{
+    width: 100%;
+    height: 26px;
+    background-color: rgba(0, 0, 0, 0.425);
+    color: #fff;
+    
+    
+    
+
+}
+.cont1{
+    padding: 10px;
+}
+p{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+#forgotpass{
+    display: none;
+}
+#login{
+    display: block;
+}
+#register{
+display: none;
+
+}
+/* inner box css end */

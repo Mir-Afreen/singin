@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <script src="signup.js"></script>
+    <title>signup</title>
+</head>
+
+<body>
+    <!-- main container start -->
+    <div class="box"> 
+       
+    <div class="box1">
+
+       <!-- button for sign and signup -->
+             <button id="signin" onclick="showSignin();" class="btn">SIGN_IN</button>
+             <button id="singup" onclick="showSingup();" class="btn">SIGN_UP</button>
+              <!-- div start of login -->
+             <div id="login">
+                <h2>Sign In</h2><hr>
+                <form action="#" method="#" class="cont1">
+                   <br> <p>EMAIL OR PHONE<input type="email" name="email"  placeholder="Enter email or phone number" required></p>
+                    <br> <p>PASSWORD <input type="password" name="password"  placeholder="Password" required></p>
+                     
+                     <input type="submit" name="submit" id="submit" value="SUBMIT">
+                     </form>
+                      <h5 style="color: white;">Don't have an account?  <a href="#" style="color:white;"> now</a> </h5>
+                     <H5> <a style="color:white" href="#" onclick="showreset();">FORGOT_PASSWORD?</a></h5>
+             </div>
+                 <!-- div end of login -->
+             <br>
+             <!-- div  start for registration -->
+             <div id="register">
+            <h2>Sign_Up</h2><h5><b><i>CREATE A NEW ACCOUNT</i></b></h5> <hr>
+                <form action="#" method="#" class="cont1">
+                    <p>EMAIL OR PHONE<input type="email" name="email" id="email" placeholder="Enter email or phone number" required></p>
+                     <p>PASSWORD <input type="password" name="password" id="pswd" placeholder="Password" required></p>
+                     <p>CONFIRM-PASSWORD<input type="password" name="password" id="conpswd" placeholder ="Confirm-password"></p><br>
+                     <input type="submit" name="submit" class="submit" id="submit" value="SUBMIT">
+                     </form>
+                     <h5 style="color: white;">Already have an account?  <a href="#" style="color: white;">sign_in</a> </h5>
+                     <H5> <a  style="color: white",  href="#"onclick="showreset();">FORGOT_PASSWORD?</a></h5>
+                     </div><br>
+                       <!-- div end for registration-->
+
+                        <!-- div strat for forget password  -->
+                     <div id="forgotpass">
+                        <h2>RESET</h2><hr>
+                        <form action="#"method="#" class="cont1" >
+                        <p>EMAIL OR PHONE<input type="email" name="email" id="email" placeholder="Enter email or phone number" required></p>
+                        <input type="submit" name="submit" id="submit" value="RESET PASSWORD">
+                        </form>
+                     </div>
+                      <!-- div ends for forget password  -->
+                
+    </div>
+    </div>
+     <!-- main container end -->
+   
+</body>
+</html>
